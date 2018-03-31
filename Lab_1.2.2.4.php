@@ -4,7 +4,7 @@ echo 'Current line number is:' . __LINE__, "\n";
 echo 'File name is: ' . __FILE__, "\n";
 echo 'Folder is :' . __DIR__, "\n";
 echo 'Current line number is:' . __LINE__, "\n";
-
+__DIR__ . '/css/main.css'
 
 $myName = 'Anton';
 echo "My Name is {$myName}", "\n";
