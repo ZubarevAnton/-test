@@ -2,7 +2,7 @@
 
 define('EMAIL', 'andy@php.ua');
 echo EMAIL;
-var_dump (EMAIL);
+var_dump(EMAIL);
 
 
 const EMAIL = 'andy@php.ua';
