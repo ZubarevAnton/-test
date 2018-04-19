@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1
- * Date: 02.04.2018
- * Time: 21:03
- */
+
+
+$ballsAmount=mt_rand(0, 100);
+$n = $ballsAmount % 10;
+
+echo "we have $ballsAmount ball",
+($n !=1 || $ballsAmount == 11) ? 's' : '';

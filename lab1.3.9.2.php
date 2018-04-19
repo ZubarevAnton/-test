@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1
- * Date: 04.04.2018
- * Time: 20:46
- */
+
+function recursiveCounter($number = 1)
+{
+    echo $number, PHP_EOL;
+    return $number < 100 ? recursiveCounter($number + 1) : 100;
+}
+
+recursiveCounter(83);

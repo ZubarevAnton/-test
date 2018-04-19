@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1
- * Date: 04.04.2018
- * Time: 21:00
- */
+
+function foo(){
+    global $bar;
+    echo $bar, PHP_EOL;
+    $bar = 'qwerty';
+}
+
+$bar = 'test';
+
+var_dump($bar);
+
+foo();
+var_dump($bar);
